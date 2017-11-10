@@ -24,6 +24,7 @@ public class juzhenxiangcheng2 {
             for(int i2=0;i2<x2;i2++)
                 for(int j2=0;j2<y2;j2++)
                 {b[i2][j2]=in.nextInt();}
+                System.out.println();
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 int sum = 0;
@@ -33,6 +34,7 @@ public class juzhenxiangcheng2 {
                 c[i][j] = sum;
                 for (int q = 0; q < n; q++) ;
                 {
+
                     for (int p = 0; p < m; p++) ;
                     System.out.print(c[i][j]+" ");
 
